@@ -2,7 +2,7 @@
 
 // Виконай рефакторинг коду функції checkPassword, використовуючи патерн «раннє повернення»:
 
-function checkPassword(password){
-    const ADMIN_PASSWORD = 'checkPASSword';
+// function checkPassword(password){
+//     const ADMIN_PASSWORD = 'checkPASSword';
     
-}
+// }
