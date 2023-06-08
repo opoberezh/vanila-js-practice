@@ -433,17 +433,17 @@
 
 // 22. Функція addOverNum() рахує суму всіх аргументів. Зміни параметри і тіло функції addOverNum() таким чином, щоб вона рахувала суму тільки тих аргументів, які більші за задане число. Це число повинно бути першим параметром функції.
 
-function addOverNum(num, ...args){
-    let sum = 0;
-    for (let arg of args){
-        if (arg > num){
-            sum += arg;
-        }
+// function addOverNum(num, ...args){
+//     let sum = 0;
+//     for (let arg of args){
+//         if (arg > num){
+//             sum += arg;
+//         }
         
-    }
-    return sum;
-}
-console.log(addOverNum(50, 15, 27));
-console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
-console.log(addOverNum(15, 32, 6, 13, 19, 8));
-console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
+//     }
+//     return sum;
+// }
+// console.log(addOverNum(50, 15, 27));
+// console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
+// console.log(addOverNum(15, 32, 6, 13, 19, 8));
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
